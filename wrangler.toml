@@ -1,10 +1,11 @@
 name = "caritassttit-server"
 main = "src/index.ts"
 compatibility_date = "2024-10-09"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 
-# [vars]
-# MY_VAR = "my-variable"
+
+[vars]
+CHATGPT_AI_TOKEN = ''
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
